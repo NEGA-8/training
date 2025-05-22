@@ -1,0 +1,14 @@
+#include <stdio.h>
+void swap(int a,int b){
+     a=90;
+     b=100;
+    printf("\n swapping: %d %d",a,b);
+}
+int main()
+{
+    int a=5,b=10;
+    printf("%d %d",a,b);
+    swap(a,b);
+    printf("\n%d %d",a,b);
+    return 0;
+}
